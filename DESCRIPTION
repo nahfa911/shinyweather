@@ -3,7 +3,7 @@ Type: Package
 Title: ShinyApp for weather forecasting
 Version: 0.1.0
 Depends: R (>= 2.10)
-Imports: shiny, weatherforecast, plotly
+Imports: shiny, weatherforecast, plotly, httpuv
 Author: Nahid Farazmand
 Maintainer: Nahid Farazmand <nahidfarazmand@gmail.com>
 Description:  This package contains a shiny app that can be used to see the weather forecast.
