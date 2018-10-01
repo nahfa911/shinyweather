@@ -23,7 +23,7 @@ devtools::install_github('nahfa911/shinyweather')
 ```
 
 
-#### Running the shinyApp
+### Running the shinyApp
 
 ```{r eval = FALSE}
 runshinyweather()
@@ -33,5 +33,5 @@ If you don't want to download this package, you still can run this App by
 
 ```{r eval = FALSE}
 library(shiny)
-> runGitHub("shinyweather", "nahfa911")
+runGitHub("shinyweather", "nahfa911")
 ```
