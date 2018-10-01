@@ -4,7 +4,10 @@ Title: ShinyApp for weather forecasting
 Version: 0.1.0
 Depends: R (>= 2.10)
 Imports: shiny, weatherforecast, plotly, httpuv
-Author: Nahid Farazmand
+Author: c(
+  person("Min-Chun","Shih","mcshihs@gmail.com", role = c("cre","aut")),
+  person("Nahid","Farazmand","nahidfarazmand@gmail.com", role = c("cre","aut")),
+  person("Yusur","Al-Mter","yusur.mutair@gmail.com", role = c("cre","aut")))
 Maintainer: Nahid Farazmand <nahidfarazmand@gmail.com>
 Description:  This package contains a shiny app that can be used to see the weather forecast.
 License: GPL-2
