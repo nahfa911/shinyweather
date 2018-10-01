@@ -9,16 +9,29 @@ the weatherforecat package and about the openweathermap API here:
 
 [openweathermap API](https://openweathermap.org/)
 
+
+### Before running this package
+Download [weatherforecas package](https://github.com/nahfa911/weatherforecas)
+```{r eval = FALSE}
+devtools::install_github('nahfa911/weatherforecas')
+```
+
 ### Installation
 
 ```{r eval = FALSE}
-
 devtools::install_github('nahfa911/shinyweather')
-
 ```
+
 
 #### Running the shinyApp
 
 ```{r eval = FALSE}
 runshinyweather()
+```
+
+If you don't want to download this package, you still can run this App by
+
+```{r eval = FALSE}
+library(shiny)
+> runGitHub("shinyweather", "nahfa911")
 ```
