@@ -10,7 +10,7 @@
 #' @references \url{https://openweathermap.org/}
 #'
 #'
-#' @author Nahid Farazmand
+#' @author Group 4
 #'
 #' @docType package
 #'
