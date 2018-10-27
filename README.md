@@ -13,7 +13,7 @@ the weatherforecat package and about the openweathermap API here:
 ### Before running this package
 Download [weatherforecas package](https://github.com/nahfa911/weatherforecas)
 ```{r eval = FALSE}
-devtools::install_github('nahfa911/weatherforecas')
+devtools::install_github('nahfa911/weatherforecas', build_vignettes = TRUE)
 ```
 
 ### Installation
